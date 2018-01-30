@@ -1,0 +1,120 @@
+html {
+	font-size: 62.5%;
+	height: 100%;
+}
+body {
+	padding: 0; 
+    margin:0;
+    height: 100%;
+    font-family: HiraginoSansGB;
+    background-color: #f0f0f0;
+}
+header{
+    width:100%;
+    position:fixed;
+    top:0;
+    z-index:2;
+    height: 3.4rem;
+    background-color:#29bde0;
+    display: flex;
+	align-items: center;
+}
+.menu{
+    background: url("./imgs/menu1.png") no-repeat center left;
+    background-size: 1.7rem 1.35rem;
+    width: 1.7rem;
+    height: 1.35rem;
+    margin-left: 1.15rem;
+}
+main {
+    position: relative;
+    top: 3.4rem;
+    width: 100%;
+    padding: 0 1.75rem 0 1.75rem;
+}
+.row {
+	position: relative;
+    top: 1.3rem;
+    margin: 0;
+	padding: 1.9rem 0 1.9rem 0;
+	border: 1px solid #c9c9c9;
+	font-size: 1.742rem;
+	color: #9a9a9a;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+.arrow {
+	position: absolute;
+    right: 2.5rem;
+    width: 1.2rem;
+    height: 2.0rem;
+    background: url("./imgs/back.png") no-repeat center right;
+}
+.games {
+	position: relative;
+	top: 2.6rem;
+	background: #ffffff;
+	border: 1px solid #c9c9c9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title {
+	border-bottom: 2px solid #fde1ae;
+	color: #fbb435;
+	font-size: 1.887rem;
+	padding: 1.35rem 0 1.35rem 0;
+	width: 100%;
+	text-align: center;
+}
+.options {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.options button:first-child {
+	margin-top: 1.5rem;
+}
+.next {
+	position: absolute;
+	right: 0.4rem;
+	top: 50%;
+	width: 1.4rem;
+	height: 2.75rem;
+	background: url("./imgs/next.png") no-repeat center right;
+}
+.versions {
+    font-size: 1.604rem;
+    background-color: #69d1e9;
+    color: #ffffff;
+    border: none;
+    width: 72vw;
+    height: 6.7rem;
+}
+.members {
+	font-size: 1.2265rem;
+	color: #787878;
+	padding: 1.3rem 0 1.3rem 0;
+}
+.options p:last-child {
+	padding-bottom: 0;
+	margin-bottom: 0; 
+}
+.footer {
+	padding-bottom: 0.25rem;
+}
+.dots {
+	width: 0.9rem;
+	height: 0.9rem;
+	background-color: #f0f0f0;
+	-moz-border-radius: 0.45rem;
+	-webkit-border-radius: 0.45rem;
+	border-radius: 0.45rem;
+	border: none;
+	margin: 0 0.2rem 0 0.2rem;
+}
+.footer button:first-child {
+	background-color: #69d1e9;
+}
